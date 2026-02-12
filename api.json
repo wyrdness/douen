@@ -1,0 +1,748 @@
+{
+  "category": "ENTITY_SPIRIT",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/douen",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "douen",
+    "name": "Douen",
+    "aliases": [
+      {
+        "name": "Dwen",
+        "language": "French Creole",
+        "region": "Trinidad and Tobago",
+        "meaning": "Alternate spelling of Douen"
+      },
+      {
+        "name": "Douens",
+        "language": "French Creole",
+        "region": "Trinidad and Tobago",
+        "meaning": "Plural form"
+      },
+      {
+        "name": "Dwens",
+        "language": "French Creole",
+        "region": "Trinidad and Tobago",
+        "meaning": "Alternate plural spelling"
+      },
+      {
+        "name": "Duende",
+        "language": "Spanish",
+        "region": "Latin America",
+        "meaning": "Similar entity, possible linguistic connection"
+      }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Child Spirit/Liminal Being",
+    "tags": [
+      "child-spirit",
+      "unbaptized",
+      "liminal-being",
+      "forest-spirit",
+      "trickster",
+      "trinidad-tobago",
+      "french-creole",
+      "caribbean",
+      "ambiguous",
+      "backwards-feet",
+      "catholic-syncretism"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "The spirits of unbaptized children in Trinidad and Tobago folklore, appearing as small children with backwards-pointing feet, wearing large straw hats, who lure living children deep into the forest to become lost.",
+      "full": "Douens are among the most poignant and complex figures in Trinidad and Tobago folklore—the spirits of children who died before baptism, condemned to wander the forests eternally. They appear as small children, often around 3-8 years old, wearing oversized straw hats that hide their faces. Their most distinctive feature is feet that point backwards, making their tracks impossible to follow correctly. Douens call to living children in high, childlike voices, inviting them to play, and lead them deeper into the forest where they become hopelessly lost. The legend reflects a powerful synthesis of Catholic baptism theology, African ancestral spirit beliefs, and the very real dangers of child mortality and forest environments. Douens embody the tragedy of children who died outside the Church's grace, the fear of losing children to the wilderness, and cultural anxieties about proper spiritual protection through baptism. Unlike purely malevolent spirits, Douens occupy an ambiguous moral space—neither fully evil nor innocent, driven by loneliness and the desire for companionship rather than pure malice."
+    },
+    "etymology": {
+      "origin": "From French Creole 'douen' or 'dwen', possibly derived from French 'du vent' (of the wind), suggesting their ephemeral, wandering nature. Alternative theories connect it to West African Yoruba concepts of abiku (spirit children) or to Spanish 'duende' (elf/goblin).",
+      "meaning": "Spirit child or wandering child spirit; the term specifically denotes unbaptized children's souls in Trinidad context",
+      "first_use": "Pre-1800s oral tradition; first written documentation in 19th century French Creole folklore collections"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ENTITY_SPIRIT",
+      "type": "Child Spirit/Liminal Being",
+      "subtype": "Unbaptized Soul",
+      "variant": "French Creole Caribbean"
+    },
+    "related_phenomena": [
+      {
+        "id": "la-diablesse",
+        "name": "La Diablesse",
+        "relationship": "related",
+        "description": "Another French Creole Trinidad spirit; both lead victims astray in forests"
+      },
+      {
+        "id": "lagahoo",
+        "name": "Lagahoo",
+        "relationship": "related",
+        "description": "Male shapeshifting spirit of Trinidad folklore"
+      },
+      {
+        "id": "soucouyant",
+        "name": "Soucouyant",
+        "relationship": "related",
+        "description": "Blood-sucking female spirit; part of Trinidad spirit complex"
+      },
+      {
+        "id": "changeling",
+        "name": "Changeling",
+        "relationship": "parallel",
+        "description": "European folklore of fairy children; similar themes of child loss"
+      },
+      {
+        "id": "duende",
+        "name": "Duende",
+        "relationship": "parallel",
+        "description": "Spanish/Latin American forest spirits; possible linguistic connection"
+      },
+      {
+        "id": "abiku",
+        "name": "Abiku",
+        "relationship": "ancestral",
+        "description": "Yoruba concept of spirit children; likely African origin of tradition"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 0.9,
+        "max": 1.3,
+        "unit": "meters",
+        "confidence": "medium"
+      },
+      "age_appearance": "3-8 years old",
+      "appearance": [
+        "Small children in appearance",
+        "Oversized straw hat or wide-brimmed hat",
+        "Simple clothing, often tattered or worn",
+        "Face hidden in shadow beneath hat",
+        "No distinct facial features visible",
+        "Feet pointing backwards",
+        "Sometimes described as faceless"
+      ],
+      "coloration": [
+        "Skin: varies, often dark or shadowy",
+        "Clothing: earth tones, browns, grays",
+        "Hat: natural straw color or bleached white"
+      ],
+      "features": [
+        {
+          "feature": "Backwards feet",
+          "description": "Feet point in opposite direction to walking direction; tracks lead away from actual path",
+          "frequency": "always"
+        },
+        {
+          "feature": "Large straw hat",
+          "description": "Oversized hat that hides face completely in shadow",
+          "frequency": "always"
+        },
+        {
+          "feature": "Facelessness",
+          "description": "No visible face beneath hat; some accounts describe blank smooth area",
+          "frequency": "common"
+        },
+        {
+          "feature": "Childlike proportions",
+          "description": "Small body, proportioned like young child",
+          "frequency": "always"
+        },
+        {
+          "feature": "Barefoot",
+          "description": "Always unshod, leaving clear backwards footprints",
+          "frequency": "always"
+        }
+      ],
+      "morphology": "Appears as small human child with anatomically reversed feet. The large hat serves both to hide identity (lack of face) and as cultural marker (straw hats common in Caribbean agriculture)."
+    },
+    "abilities": [
+      {
+        "ability": "Voice mimicry",
+        "description": "Can imitate children's voices and call children by name",
+        "frequency": "always",
+        "evidence_level": "documented"
+      },
+      {
+        "ability": "Forest navigation",
+        "description": "Perfect knowledge of forest paths; never gets lost",
+        "frequency": "always",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Backwards tracking",
+        "description": "Leaves footprints pointing opposite direction of travel, confusing pursuers",
+        "frequency": "always",
+        "evidence_level": "documented"
+      },
+      {
+        "ability": "Luring call",
+        "description": "Calls to children with playful invitations that are difficult to resist",
+        "frequency": "common",
+        "evidence_level": "documented"
+      },
+      {
+        "ability": "Forest illusion",
+        "description": "May create illusions of familiar places or people to lure children deeper",
+        "frequency": "occasional",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Invisibility to adults",
+        "description": "Some accounts suggest children can see them while adults cannot",
+        "frequency": "occasional",
+        "evidence_level": "reported"
+      }
+    ],
+    "behavior": {
+      "activity_period": "any time (daytime and dusk most common)",
+      "disposition": "ambiguous",
+      "social_structure": "group (often appear in small groups)",
+      "habitat_preference": [
+        "dense forests",
+        "forest edges",
+        "rural paths near forest",
+        "riverbanks in forest",
+        "abandoned cocoa plantations",
+        "bamboo groves"
+      ],
+      "diet": "Not applicable (spirit entity)",
+      "patterns": [
+        "Call to living children to come play",
+        "Lead children deeper into forest",
+        "Play games that gradually move away from safe paths",
+        "Appear more frequently to children who play alone",
+        "May target children whose names are called aloud by parents",
+        "Disappear when adults approach or child realizes danger",
+        "More active during transition times (dusk, dawn)",
+        "Associated with edges and boundaries"
+      ],
+      "motivation": "Driven by loneliness and desire for companionship; seeking playmates in eternal childhood"
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Primarily Trinidad and Tobago, with similar traditions throughout French Creole Caribbean (Martinique, Guadeloupe, St. Lucia, Dominica). Strongest in rural forested areas with French colonial history and Catholic influence.",
+      "continents": ["North America", "Caribbean"],
+      "countries": ["Trinidad and Tobago", "Martinique", "Guadeloupe", "Saint Lucia", "Dominica"],
+      "regions": [
+        "Trinidad (especially rural interior)",
+        "Tobago",
+        "Northern Range forests",
+        "Central Range",
+        "Arima Valley",
+        "Paramin",
+        "Lopinot"
+      ]
+    },
+    "hotspots": [
+      {
+        "name": "Northern Range Forests",
+        "location": {
+          "description": "Mountainous forested region of northern Trinidad",
+          "country": "Trinidad and Tobago",
+          "region": "Trinidad",
+          "coordinates": {
+            "latitude": 10.7333,
+            "longitude": -61.2667
+          }
+        },
+        "encounter_count": "numerous",
+        "peak_period": "ongoing",
+        "notes": "Dense forest with many isolated rural communities; strong folklore tradition"
+      },
+      {
+        "name": "Lopinot",
+        "location": {
+          "description": "Historic cocoa estate area with dense forest",
+          "country": "Trinidad and Tobago",
+          "region": "Trinidad",
+          "coordinates": {
+            "latitude": 10.6833,
+            "longitude": -61.2667
+          }
+        },
+        "encounter_count": "numerous",
+        "peak_period": "ongoing",
+        "notes": "Strong French Creole heritage; abandoned plantation areas"
+      },
+      {
+        "name": "Arima",
+        "location": {
+          "description": "Eastern Trinidad town bordering forest",
+          "country": "Trinidad and Tobago",
+          "region": "Trinidad",
+          "coordinates": {
+            "latitude": 10.6333,
+            "longitude": -61.2833
+          }
+        },
+        "encounter_count": "numerous",
+        "peak_period": "ongoing",
+        "notes": "Gateway to forest areas; many traditional accounts"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "Pre-1800s",
+        "circa": true,
+        "source": "Oral traditions from French colonial period blending with African spiritual concepts and Catholic theology"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "Daytime (especially late afternoon)",
+          "description": "Most encounters occur when children play near forest edges before dark"
+        },
+        {
+          "period": "Dusk (twilight)",
+          "description": "Liminal time when Douens are most active"
+        }
+      ],
+      "seasonal_patterns": "Year-round, with possible increase during rainy season when children more likely indoors but venture out; also during school holidays when children have more unsupervised time"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Douens represent a complex synthesis of three spiritual traditions: (1) Catholic theology regarding unbaptized infants and limbo, (2) West African Yoruba/Dahomean concepts of abiku (spirit children who die young), and (3) practical fears about child mortality and safety in forest environments. The belief emerged during Trinidad's French colonial period when high infant mortality rates combined with Catholic baptism requirements created theological anxiety about children dying unbaptized.",
+      "earliest_accounts": "Oral traditions date to 18th century French colonial period; first written accounts appear in 19th century folklore collections and colonial observations of 'superstitions.'",
+      "folklore_connections": "Connected to European changeling folklore, African abiku traditions, Spanish duende legends, and broader Caribbean beliefs about child spirits and baptism. The backwards feet motif appears in various global folklore traditions."
+    },
+    "timeline": [
+      {
+        "date": "1783",
+        "event": "Cedula of Population",
+        "significance": "French Catholic planters, free people of color, and enslaved Africans bring combined traditions to Trinidad",
+        "source": "Historical records"
+      },
+      {
+        "date": "1797",
+        "event": "British conquest of Trinidad",
+        "significance": "Catholic French Creole culture persists under British Protestant rule, preserving folklore",
+        "source": "Colonial records"
+      },
+      {
+        "date": "1838",
+        "event": "Emancipation",
+        "significance": "Former enslaved people develop and preserve Creole spiritual traditions including Douen beliefs",
+        "source": "Historical records"
+      },
+      {
+        "date": "1850s-1880s",
+        "event": "High infant mortality period",
+        "significance": "Widespread child deaths intensify anxieties about baptism and child protection folklore",
+        "source": "Colonial medical records"
+      },
+      {
+        "date": "1869",
+        "event": "Charles Kingsley visits Trinidad",
+        "significance": "British writer documents local folklore including references to child spirits",
+        "source": "Kingsley's travel writings"
+      },
+      {
+        "date": "1950s-1960s",
+        "event": "Academic folklore documentation",
+        "significance": "Andrew Carr, J.D. Elder, and others systematically collect Douen stories",
+        "source": "Caribbean Quarterly and folklore publications"
+      },
+      {
+        "date": "1976",
+        "event": "Michael Anthony's folklore collection",
+        "significance": "Publication brings Douen stories to wider audience through literature",
+        "source": "Folk Tales and Fantasies"
+      },
+      {
+        "date": "1980s-present",
+        "event": "Cultural revival and education",
+        "significance": "Douen featured in children's literature, school curricula, cultural education programs",
+        "source": "Contemporary cultural works"
+      }
+    ],
+    "modern_era": "Douens remain a vibrant part of Trinidad and Tobago culture, serving both as genuine folk belief in rural areas and cultural heritage marker. The figure appears in children's literature, educational programs about folklore, carnival characters, and continues to function as cautionary tale warning children about forest dangers. Modern interpretations explore themes of child mortality, baptism, and cultural memory."
+  },
+
+  "encounters": {
+    "statistics": {
+      "total_documented": "hundreds",
+      "verified": 0,
+      "disputed": "most",
+      "debunked": "some",
+      "date_range": {
+        "earliest": "1700s",
+        "latest": "2020s"
+      }
+    },
+    "notable": [
+      {
+        "id": "douen-arima-1960s",
+        "name": "Arima Forest Edge Encounter",
+        "date": {
+          "value": "1960s",
+          "precision": "decade"
+        },
+        "location": {
+          "description": "Forest edge near Arima",
+          "country": "Trinidad and Tobago",
+          "region": "Trinidad",
+          "locality": "Arima"
+        },
+        "witnesses": {
+          "count": 1,
+          "types": ["Child, approximately 7 years old"],
+          "credibility_factors": ["Consistent with traditional pattern", "Child genuinely frightened", "Found far from home"]
+        },
+        "description": "A young boy playing near the forest edge heard children calling his name, inviting him to come play. He followed the voices and saw several small children in straw hats playing in a clearing. When he tried to join them, they moved deeper into the forest, always just ahead. After what seemed like minutes, he realized it was growing dark and he was lost. He was found hours later by searchers after following what he thought were footprints leading home—but the prints pointed the wrong direction. His family said he had been warned never to answer if he heard his name called in the forest.",
+        "conditions": {
+          "weather": "Clear afternoon transitioning to dusk",
+          "visibility": "Good initially, failing at dusk",
+          "time_of_day": "Late afternoon into evening",
+          "duration": "Several hours (felt like minutes to child)"
+        },
+        "evidence": [
+          "Child's testimony",
+          "Found in disoriented state far from home",
+          "Backwards footprints reported by searchers",
+          "Time distortion experienced by child"
+        ],
+        "credibility": {
+          "rating": "medium",
+          "factors": [
+            "Consistent with traditional Douen pattern",
+            "Child genuinely believed experience",
+            "Could be explained by disorientation and panic",
+            "Time distortion consistent with stress response",
+            "No physical evidence of supernatural entities"
+          ],
+          "notes": "Typical Douen encounter pattern serving cautionary function"
+        },
+        "sources": [
+          "Local oral tradition",
+          "Documented in folklore collections"
+        ],
+        "featured": true
+      },
+      {
+        "id": "douen-lopinot-1980s",
+        "name": "Lopinot Cocoa Plantation Incident",
+        "date": {
+          "value": "1980s",
+          "precision": "decade"
+        },
+        "location": {
+          "description": "Abandoned cocoa plantation near Lopinot",
+          "country": "Trinidad and Tobago",
+          "region": "Trinidad",
+          "locality": "Lopinot"
+        },
+        "witnesses": {
+          "count": 2,
+          "types": ["Two siblings, ages 6 and 9"],
+          "credibility_factors": ["Multiple witnesses", "Consistent account", "Physical search confirmed location difficulty"]
+        },
+        "description": "Two children playing near their family's cocoa plantation heard singing and laughter. They saw small figures in large hats playing near old cocoa drying houses. The children approached but the figures moved away, leading them through increasingly dense vegetation. When the children realized they were lost, they tried to follow footprints back but became more confused. Their parents found them after a three-hour search, both insisting they had only been gone for a short time and had been following 'the other children.'",
+        "conditions": {
+          "weather": "Overcast, afternoon",
+          "visibility": "Moderate under forest canopy",
+          "time_of_day": "Afternoon",
+          "duration": "Three hours actual (felt shorter to children)"
+        },
+        "evidence": [
+          "Dual witness testimony",
+          "Time distortion",
+          "Both children described same backwards-footed figures",
+          "Found in area difficult to reach accidentally"
+        ],
+        "credibility": {
+          "rating": "medium",
+          "factors": [
+            "Two witnesses with consistent story",
+            "Traditional pattern elements present",
+            "Could be explained by getting lost and imagination",
+            "Time perception altered (common in stress)",
+            "No physical evidence beyond children's experience"
+          ],
+          "notes": "Multiple witness case strengthens folklore tradition; demonstrates protective function of belief"
+        },
+        "sources": [
+          "Family oral tradition",
+          "Local newspaper reference"
+        ],
+        "featured": true
+      }
+    ]
+  },
+
+  "evidence": {
+    "physical": [
+      {
+        "type": "tracks",
+        "name": "Backwards footprints",
+        "description": "Reports of small backwards-pointing footprints near sites where children report Douen encounters",
+        "status": "anecdotal",
+        "analysis": "No verified photographic evidence; likely natural explanations or deliberate hoaxes. The 'backwards feet' may be symbolic rather than literal."
+      }
+    ],
+    "experiential": [
+      {
+        "type": "psychological_effects",
+        "name": "Time distortion and disorientation",
+        "description": "Children who report Douen encounters consistently describe time feeling shorter than actual elapsed time and profound disorientation in familiar areas",
+        "status": "documented",
+        "analysis": "Consistent with psychological response to being lost; panic and stress can distort time perception and impair navigation"
+      },
+      {
+        "type": "auditory_phenomena",
+        "name": "Children's voices calling",
+        "description": "Multiple reports of hearing children's voices or one's own name called in forest areas where no children are present",
+        "status": "documented",
+        "analysis": "Could be explained by acoustic properties of forest, animal sounds, or psychological expectation; serves protective function"
+      }
+    ]
+  },
+
+  "theories": {
+    "religious": [
+      {
+        "name": "Limbo Souls",
+        "description": "Catholic theological interpretation: Douens are souls of unbaptized infants in limbo, neither heaven nor hell, wandering the earth",
+        "proponents": ["Catholic Church tradition", "French Creole believers"],
+        "evidence_cited": ["Medieval Catholic limbo doctrine", "Requirement for emergency baptism", "Emphasis on baptism in stories"]
+      },
+      {
+        "name": "Abiku Spirits",
+        "description": "African tradition: Douens represent Yoruba concept of abiku—spirit children who repeatedly die young, connected to ancestral realm",
+        "proponents": ["Orisha tradition practitioners", "Scholars of African retentions"],
+        "evidence_cited": ["Yoruba abiku traditions parallel", "West African spirit child concepts", "Emphasis on spiritual protection"]
+      }
+    ],
+    "psychological": [
+      {
+        "name": "Child Safety Mechanism",
+        "description": "Douen legend serves practical function of keeping children from wandering into dangerous forest areas",
+        "proponents": ["Folklorists", "Anthropologists", "Child development specialists"],
+        "evidence_cited": ["Consistent warning pattern", "Real dangers of forest navigation", "Effective behavioral modification through folklore"]
+      },
+      {
+        "name": "Grief and Child Mortality Processing",
+        "description": "Stories allow communities to process high infant mortality rates and sudden child deaths through supernatural framework",
+        "proponents": ["Psychological anthropologists", "Grief researchers"],
+        "evidence_cited": ["Historical high infant mortality", "Baptism anxiety", "Need to explain sudden child deaths", "Comfort of continued existence belief"]
+      },
+      {
+        "name": "Cultural Memory and Identity",
+        "description": "Douens preserve cultural memory of French Creole Catholic-African synthesis and serve as identity markers",
+        "proponents": ["Cultural historians", "Caribbean studies scholars"],
+        "evidence_cited": ["Linguistic markers (French Creole terms)", "Syncretism of traditions", "Community cohesion function"]
+      }
+    ],
+    "practical": [
+      {
+        "name": "Acoustic Phenomena",
+        "description": "Forest acoustic properties can create illusion of children's voices; natural sounds misinterpreted",
+        "proponents": ["Skeptics", "Acoustic researchers"],
+        "evidence_cited": ["Forest echo effects", "Bird and animal sounds mimicking voices", "Wind through vegetation"]
+      },
+      {
+        "name": "Disorientation and Natural Navigation Errors",
+        "description": "Children get lost naturally; folklore provides explanation for disorientation experiences",
+        "proponents": ["Rationalists", "Navigation researchers"],
+        "evidence_cited": ["Dense forest environment", "Easy to become disoriented", "Child psychology and panic response", "Time perception effects under stress"]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Told as cautionary tales to young children",
+        "Part of oral storytelling at family gatherings",
+        "Incorporated into children's games and songs",
+        "Featured in school cultural education programs",
+        "Represented in carnival children's bands"
+      ],
+      "stories": [
+        "The child who followed the singing into the forest",
+        "The backwards footprints that led nowhere",
+        "The boy who answered his name and disappeared",
+        "The children in hats who play forever"
+      ],
+      "beliefs": "Many Trinidadian families maintain genuine belief in Douens, particularly in rural areas. The belief serves important protective function regardless of literal truth. Parents actively teach children never to answer if they hear their name called in the forest, never to follow strange children, and always to stay on known paths."
+    },
+    "protection_methods": [
+      {
+        "method": "Baptism",
+        "description": "Immediate baptism of infants prevents them from becoming Douens; emergency baptism if child is ill"
+      },
+      {
+        "method": "Never call child's name aloud in forest",
+        "description": "Douens learn names and can call children by name; use whistles or nicknames instead"
+      },
+      {
+        "method": "Turn clothes inside out",
+        "description": "Traditional method to break spell if child believes they are being led astray"
+      },
+      {
+        "method": "Look at feet",
+        "description": "Always check the feet of any child encountered in the forest—backwards feet reveal Douen"
+      },
+      {
+        "method": "Never accept invitations from unknown children",
+        "description": "Children taught to refuse invitations to play from strangers, especially near forest"
+      },
+      {
+        "method": "Prayer and religious items",
+        "description": "Carrying blessed items, saying prayers, making sign of the cross"
+      },
+      {
+        "method": "Stay within earshot of adults",
+        "description": "Practical rule reinforced by folklore"
+      },
+      {
+        "method": "Drop personal items",
+        "description": "If lost, drop personal items to mark path and prevent Douens from confusing the trail"
+      }
+    ],
+    "social_functions": {
+      "child_safety": "Primary function is preventing children from entering dangerous forest areas unaccompanied",
+      "religious_reinforcement": "Emphasizes importance of Catholic baptism and religious observance",
+      "cultural_transmission": "Teaches cultural values and French Creole heritage through storytelling",
+      "community_cohesion": "Shared belief creates community bonds and collective childrearing",
+      "grief_processing": "Provides framework for understanding and accepting infant mortality",
+      "moral_instruction": "Teaches obedience, caution, and respect for boundaries"
+    },
+    "popular_culture": {
+      "literature": [
+        "Featured in Michael Anthony's folk tale collections",
+        "Children's books by Trinidad authors",
+        "Referenced in Caribbean literature",
+        "Educational folklore anthologies"
+      ],
+      "visual_arts": [
+        "Carnival children's band characters",
+        "Illustrations in children's books",
+        "Contemporary Caribbean art",
+        "Cultural heritage displays"
+      ],
+      "education": [
+        "Taught in school folklore units",
+        "Cultural heritage programs",
+        "National Library children's programs",
+        "Folklore festivals"
+      ],
+      "other": [
+        "Referenced in calypso and soca",
+        "Featured in cultural tourism presentations",
+        "Halloween-season folklore events",
+        "Folklore theatre productions"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Andrew T. Carr",
+        "affiliation": "Independent folklorist",
+        "contribution": "Documented Trinidad folklore including Douen beliefs in 1950s-60s",
+        "period": "1950s-1960s"
+      },
+      {
+        "name": "J.D. Elder",
+        "affiliation": "University of the West Indies",
+        "contribution": "Extensive documentation of Trinidad folk beliefs and African retentions",
+        "period": "1960s-1980s"
+      },
+      {
+        "name": "Melville and Frances Herskovits",
+        "affiliation": "Northwestern University",
+        "contribution": "Anthropological study of Trinidad village life and African cultural retentions",
+        "period": "1930s-1940s"
+      },
+      {
+        "name": "Maureen Warner-Lewis",
+        "affiliation": "University of the West Indies",
+        "contribution": "Analysis of African cultural dynamics in Trinidad including spiritual beliefs",
+        "period": "1990s-present"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "National Heritage Library of Trinidad and Tobago",
+        "url": "http://heritage.tt/",
+        "focus": "Documentation and preservation of cultural heritage including folklore"
+      },
+      {
+        "name": "Caribbean Quarterly",
+        "url": "https://www.mona.uwi.edu/caribbeanquarterly/",
+        "focus": "Academic journal publishing Caribbean folklore research"
+      }
+    ],
+    "ongoing_studies": "Contemporary research focuses on: folklore as child safety mechanism, psychological functions of belief, cultural memory and identity formation, comparative Caribbean folklore studies, and documentation of evolving traditions in digital age."
+  },
+
+  "sources": [
+    {
+      "id": "anthony-1976",
+      "type": "book",
+      "title": "Folk Tales and Fantasies",
+      "authors": ["Michael Anthony"],
+      "publication": "Columbus Publishers",
+      "date": "1976"
+    },
+    {
+      "id": "carr-1953",
+      "type": "article",
+      "title": "A Rada Community in Trinidad",
+      "authors": ["Andrew T. Carr"],
+      "publication": "Caribbean Quarterly",
+      "date": "1953",
+      "volume": "3",
+      "issue": "1"
+    },
+    {
+      "id": "herskovits-1947",
+      "type": "book",
+      "title": "Trinidad Village",
+      "authors": ["Melville J. Herskovits", "Frances S. Herskovits"],
+      "publication": "Alfred A. Knopf",
+      "date": "1947"
+    },
+    {
+      "id": "warner-lewis-1991",
+      "type": "book",
+      "title": "Guinea's Other Suns: The African Dynamic in Trinidad Culture",
+      "authors": ["Maureen Warner-Lewis"],
+      "publication": "The Majority Press",
+      "date": "1991"
+    },
+    {
+      "id": "elder-1972",
+      "type": "article",
+      "title": "The Yoruba Ancestor Cult in Gasparillo",
+      "authors": ["J.D. Elder"],
+      "publication": "Caribbean Quarterly",
+      "date": "1972",
+      "volume": "18",
+      "issue": "3"
+    }
+  ]
+}
